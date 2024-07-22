@@ -28,7 +28,7 @@ body {
 
 .container {
   height: clamp(min-content, 50vh, 620px);
-  width: max(20vw, 250px);
+  width: max(12vw, 300px);
   background-color: var(--color-white);
 
   display: flex;
