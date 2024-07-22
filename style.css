@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  height: min(50vh, 620px);
+  height: clamp(min-content, 50vh, 620px);
   width: max(20vw, 250px);
   background-color: var(--color-white);
 
